@@ -1,0 +1,6 @@
+<!ELEMENT list (link*)>
+	<!ELEMENT movie (title,genre,director,premiere)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT genre (#PCDATA)>
+	<!ELEMENT director (#PCDATA)>
+	<!ELEMENT premiere (#PCDATA)>

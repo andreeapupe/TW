@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="movie.xsl"?>
+<!DOCTYPE queue SYSTEM "movie.dtd">
+<list>
+
+  <movie>
+    <title>Shawshank Redemption</title>
+    <genre>Drama </genre>
+    <director>Frank Darabont</director>
+    <premiere>14 October 1994 (USA)</premiere>
+  </movie>
+
+  <movie>
+    <title>The Godfather</title>
+    <genre>Crime, Drama</genre>
+    <director>Francis Ford Coppola</director>
+    <premiere>24 March 1972 (USA)</premiere>
+  </movie>
+
+  <movie>
+    <title>The Dark Knight</title>
+    <genre>Action, Crime, Drama</genre>
+    <director>Christopher Nolan</director>
+    <premiere>25 July 2008 (Romania)</premiere>
+  </movie>
+
+  <movie>
+    <title>Schindler's List </title>
+    <genre>Biography, Drama, History </genre>
+    <director>Steven Spielberg</director>
+    <premiere>18 March 1994 (Romania)</premiere>
+  </movie>
+
+  <movie>
+    <title>Pulp Fiction</title>
+    <genre>Crime, Drama </genre>
+    <director>Quentin Tarantino</director>
+    <premiere>1998 (Romania)</premiere>
+  </movie>
+
+  <movie>
+    <title>The good, the bad and the ugly</title>
+    <genre>Western</genre>
+    <director>Sergio Leone</director>
+    <premiere>23 December 1966 (Italy)</premiere>
+  </movie>
+
+  <movie>
+    <title>Fight club</title>
+    <genre>Drama</genre>
+    <director>David Fincher</director>
+    <premiere>18 February 2000 (Romania)</premiere>
+  </movie>
+
+  <movie>
+    <title>Forrest Gump</title>
+    <genre>Drama, Romance </genre>
+    <director>Robert Zemeckis</director>
+    <premiere>24 February 1995 (Romania)</premiere>
+  </movie>
+
+  <movie>
+    <title>Inception</title>
+    <genre>Action, Adventure, Sci-Fi</genre>
+    <director>Christopher Nolan</director>
+    <premiere>30 July 2010 (Romania)</premiere>
+  </movie>
+
+  <movie>
+    <title>Se7en</title>
+    <genre>Crime, Drama, Mystery</genre>
+    <director>David Fincher</director>
+    <premiere>1996 (Romania)</premiere>
+  </movie>
+
+</list>
+
