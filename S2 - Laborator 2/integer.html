@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> Integer Generation Form </title>
+<style>
+  li {
+  display: inline;
+}
+</style>
+</head>
+
+<body>
+	<h1> Integer Generation Form </h1>
+
+	<ul>
+  <li><p><a href="main.html">Main Page</a></li>
+  <li><p><a href="sequence.html">Sequence Generation Form</a></li>
+  <li><p><a href="string.html">String Generation Form</a></li>
+</ul>
+
+
+	<form action="https://www.random.org/integers/">
+	
+		<p>Number of numbers: <input type="text" name="num" value="50" size="6" maxlength="12"> </p>
+        
+        <p>Min: <input type="text" name="min" value="1" size="6" maxlength="12"> 
+
+       	<p>Max: <input type="text" name="max" value="100" size="6" maxlength="12"></p>
+        <p>Columns: <input type="text" name="col" value="6" size="2" maxlength="6"></p>
+        <input type="submit" value="Get Numbers">
+        <input type="hidden" name="base" value="10">
+        <input type="hidden" name="format" value="plain">
+        <input type="hidden" name="rnd" value="new">
+    </form>
+</body>
+</html>

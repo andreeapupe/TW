@@ -1,0 +1,34 @@
+<html>
+<head>
+<title> String Generation Form </title>
+<style>
+  li {
+  display: inline;
+}
+</style>
+</head>
+
+<body>
+	<h1> String Generation Form </h1>
+	<ul>
+	<li><p><a href="main.html">Main Page</a></li>
+  <li><p><a href="integer.html">Integer Generation Form</a></li>
+  <li><p><a href="sequence.html">Sequence Generation Form</a></li>
+</ul>
+
+
+
+<form action="https://www.random.org/strings/">
+        <p>Generate <input type="text" name="num" value="10" size="6" maxlength="12"> random strings</p>
+        <p>Each string should be <input type="text" name="len" value="10" size="6" maxlength="12"> characters long</p>
+        <p>Which characters are allowed to occur in the strings?<br>
+            <label><input class="indented" type="checkbox" name="digits" checked="checked"> Numeric digits (0-9)</label><br>
+            <label><input class="indented" type="checkbox" name="upperalpha"> Uppercase letters (A-Z)</label><br>
+            <label><input class="indented" type="checkbox" name="loweralpha"> Lowercase letters (a-z)</label>
+        </p>
+        <input type="submit" value="Get Strings">
+        <input type="hidden" name="format" value="html">
+        <input type="hidden" name="rnd" value="new">
+    </form>
+</body>
+</html>

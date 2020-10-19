@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> Sequence Generation Form </title>
+<style>
+  li {
+  display: inline;
+}
+</style>
+</head>
+
+<body>
+	<h1> Sequence Generation Form </h1>
+
+	<ul>
+	<li><p><a href="main.html">Main Page</a></li>
+  <li><p><a href="integer.html">Integer Generation Form</a></li>
+  <li><p><a href="string.html">String Generation Form</a></li>
+</ul>
+
+<form action="https://www.random.org/sequences/">
+        <p>Min: <input type="text" name="min" value="1" size="6" maxlength="12"></p>
+        <p>Max: <input type="text" name="max" value="10" size="6" maxlength="12"></p>
+        <p>Cols: <input type="text" name="col" value="1" size="2" maxlength="6"></p>
+        <input type="submit" value="Get Sequence">
+        <input type="hidden" name="format" value="plain">
+        <input type="hidden" name="rnd" value="new">
+    </form>
+</body>
+</html>
